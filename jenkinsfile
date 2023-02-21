@@ -1,0 +1,14 @@
+pipeline{
+agent any
+stages
+{ 
+ 
+ stage('Test_Demo')
+ {
+  steps{
+  echo "Testing for unirest done successfully"
+  }
+ }
+ 
+} 
+}

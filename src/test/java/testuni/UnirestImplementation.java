@@ -1,8 +1,9 @@
-package org.example;
+package testuni;
 import Files.payload;
 import io.restassured.path.json.JsonPath;
 import kong.unirest.*;
 import kong.unirest.json.JSONObject;
+import org.example.ReUsableMethods;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
@@ -57,15 +58,24 @@ public class UnirestImplementation {
 
         HttpResponse<JsonNode> responseGET = Unirest
                 .get(baseURL.getDefaultBaseUrl().concat("/maps/api/place/get/json"))
-                .queryString("key","qaclick123")
-                .queryString("place_id",context.getAttribute("placeID"))
+                .queryString("key", "qaclick123")
+                .queryString("place_id", context.getAttribute("placeID"))
                 .asJson();
-        assertEquals(200,responseGET.getStatus());
+        assertEquals(200, responseGET.getStatus());
         JSONObject jb2 = responseGET.getBody().getObject();
         String actualAddress = jb2.getString("address");
         System.out.println(actualAddress);
-        assertEquals(actualAddress,context.getAttribute("newAddress"));
-
+        assertEquals(actualAddress, context.getAttribute("newAddress"));
     }
+        @Test(priority = 4)
+        public void requestDELETE( ) throws UnirestException {
+
+            HttpResponse<JsonNode> responseDELETE = Unirest
+                    .delete(baseURL.getDefaultBaseUrl())
+                    .asJson();
+            int ds1 = responseDELETE.getStatus();
+            System.out.println(ds1);
+
+        }
 }
 

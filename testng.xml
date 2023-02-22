@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/anchal.bansal/IdeaProjects/Unirest/src/test/java/testuni/UnirestImplementation.java">
+        <classes>
+            <class name="testuni.UnirestImplementation">
+                <methods><include name="requestPOST"/>
+                    <include name="requestPUT"/>
+                    <include name="requestGET"/>
+                    <include name="requestDELETE"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

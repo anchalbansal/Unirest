@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dceff5bb-3f6c-4ad5-9e09-feb258ded7cc" name="Changes" comment="">
+    <list default="true" id="dceff5bb-3f6c-4ad5-9e09-feb258ded7cc" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Files/payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UnirestImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testuni/UnirestImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simpleexample/Getsimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simpleexample/Getsimp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simpleexample/Postsimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simpleexample/Postsimp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,11 +169,23 @@
       <option name="presentableId" value="Default" />
       <updated>1676454444351</updated>
       <workItem from="1676454445616" duration="1688000" />
-      <workItem from="1676456158179" duration="16445000" />
+      <workItem from="1676456158179" duration="17855000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1676960125573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676960125573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
